@@ -2,8 +2,7 @@ using UnityEngine;
 
 namespace _Project.GameFeatures.Character
 {
-    [RequireComponent(typeof(DetectedGround), typeof(CapsuleCollider),
-        typeof(Rigidbody))]
+    [RequireComponent(typeof(CapsuleCollider), typeof(Rigidbody))]
     public class Player : MonoBehaviour
     {
         [SerializeField] private PlayerConfig _playerConfig;
